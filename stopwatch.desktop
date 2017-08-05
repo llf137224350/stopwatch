@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Application;Utility;stopwatch;
+Encoding=UTF-8
+Exec=/usr/bin/stopwatch
+Icon=/usr/share/icons/stopwatch/app.ico
+Name=stopwatch
+Name[zh_CN]=秒表
+Name[zh_TW]=秒表
+StartupNotify=false
+Terminal=false
+Type=Application
+X-MultipleArgs=false

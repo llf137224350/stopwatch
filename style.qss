@@ -1,0 +1,87 @@
+QWidget {
+    background-color:rgba(255,255,255,246);
+    border:1px solid #f0f0f0;
+    border-radius:3px
+}
+QLabel{
+    font-size:12px;
+    color:#09aab9;
+    border:none;
+}
+QLabel#totalTime {
+    font-size:36px;
+     background:transparent;
+}
+
+QPushButton#closeButton{
+    background-image:url(:/close_normal.png);
+    border:none;padding:0;
+    background-color:rgba(255,255,255,246);
+}
+QPushButton#minButton{
+    background-image:url(:/min.png);
+    border:none;padding:0;
+    background-color:rgba(255,255,255,246);
+}
+QPushButton#closeButton::hover{
+    background-image:url(:/close_hover.png);
+ }
+ QPushButton#start{
+    font-size:12px;
+    color:#09aab9;
+    border:none;
+}
+QPushButton#pause{
+   font-size:12px;
+
+   border:none;
+}
+QPushButton#continue{
+   font-size:12px;
+   border:none;
+   outline:0px;
+}
+QPushButton:focus{
+  outline: none;
+}
+QPushButton#reset{
+   font-size:12px;
+   color:#09aab9;
+   border:none;
+}
+
+QPushButton#remember_times{
+   font-size:12px;
+   color:#09aab9;
+   border:none;
+}
+QGroupBox {
+      border-top:1px solid #f0f0f0;
+}
+QListView {
+    border:none;
+}
+QLabel#indexLabel{
+    color:#000000;
+    font-size:12px;
+   background:transparent;
+}
+QLabel#valueLabel{
+    font-size:12px;
+    background:transparent;
+    color:#09aab9;
+}
+QListWidget {
+    border-top:1px solid #f0f0f0;
+}
+
+QListWidget::Item {
+    background:#ffffff;
+}
+QListWidget::Item:hover{
+    background:#f0f0f0;
+}
+
+ QListView::item:selected:active {
+    background:#f0f0f0;
+ }
